@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat:wght@100;400;500;600&display=swap');
+
+
+:root {
+    --darkGreen: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --gray: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --head: 2rem;
+    --text: 1rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cream);
+}
+
+.container{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.coffee-box{
+    display: flex;
+    height: 415px;
+    max-width: 700px;
+}
+
+.desktop-img{
+    display: block;
+    height: 100%;
+    border-radius: 1.5em 0 0 1.5em;
+}
+
+.box1{
+    width: 45%;
+    box-sizing: border-box;
+    object-fit: cover;
+    border: none;
+}
+
+.box2{
+    width: 55%;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background-color: var(--white);
+    border-radius: 0 1.5em 1.5em 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.h3-font{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    letter-spacing: 6px;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.h1-font{
+    font-size: var(--head);
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0
+}
+
+.para{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.rupee{
+    font-size: var(--head);
+    font-family: "Fraunces", serif;
+    color: var(--darkGreen);
+    font-weight: 700;
+}
+
+.del-rupee{
+    font-size: var(--text);
+    font-weight: 500;
+    color: var(--gray);
+    font-family: "Montserrat", sans-serif;
+}
+
+.button{
+    width: 90%;
+    background-color: var(--darkGreen);
+    color: var(--white);
+    padding: 15px 0px 15px 0px; 
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+.cart_img{
+    margin-right: 10px;
+}
